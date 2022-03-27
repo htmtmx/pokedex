@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row vh-100">
+            <!-- ============================================= Column left =============================================-->
+            <div class="text-sm-center text-center col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-3 d-xl-block d-xxl-none 
+                        d-flex flex-column flex-sm-column flex-md-column  flex-lg-row flex-xl-column flex-xxl-column justify-content-center align-items-center"
+                id="firstColumn">
+                <h1 class="d-none text-white w-100  " id="titleEvo" name="titleEvo">Evoluciones</h1>
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-3 
+                            d-flex flex-column flex-sm-column flex-md-row  flex-lg-row flex-xl-row flex-xxl-column  align-items-center"
+                id="firstColumn">
+                <div class="d-flex justify-content-center flex-xl-column flex-xxl-column mt-5">
+                    <h1 class="d-none text-white w-100 d-none d-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block" id="titleEvo" name="titleEvo">
+                        Evoluciones</h1>
+                </div>
+                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-column flex-xlrow flex-xxl-column pt-2">
+                    <img src="" class="d-none align-self-center" alt="Pokemon" id="imgPokeIni" width="150px">
+                    <input type="text" class="d-none align-self-center border-0 w-75 text-center fw-bold fs-3" placeholder="Pokemon inicial" id="pokeIni"
+                        name="pokeIni"><br>
+                </div>
+                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-column flex-xlrow flex-xxl-column">
+                    <img src="" class="d-none align-self-center" alt="Pokemon" id="imgEvo1" width="150px">
+                    <input type="text" class="d-none align-self-center border-0 w-75 text-center fw-bold fs-3" placeholder="Primera evolución" id="evo1"
+                        name="evo1"><br>
+                </div>
+                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-column flex-xlrow flex-xxl-column">
+                    <img src="" class="d-none align-self-center" alt="Pokemon" id="imgEvo2" width="150px">
+                    <input type="text" class="d-none align-self-center border-0 w-75 text-center fw-bold fs-3" placeholder="Segunda evolución" id="evo2"
+                        name="evo2"><br>
+                </div>
+                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-column flex-xlrow flex-xxl-column">
+                    <img src="" class="d-none align-self-center" alt="Pokemon" id="imgEvo3" width="150px">
+                    <input type="text" class="d-none align-self-center border-0 w-75 text-center fw-bold fs-3" placeholder="Tercera evolución" id="evo3"
+                        name="evo3"><br>
+                </div>
+                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-column flex-xlrow flex-xxl-column">
+                    <img src="" class="d-none align-self-center" alt="Pokemon" id="imgEvo4" width="150px">
+                    <input type="text" class="d-none align-self-center border-0 w-75 text-center fw-bold fs-3" placeholder="Cuarta evolución" id="evo4"
+                        name="evo4"><br>
+                </div>
+                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-column flex-xlrow flex-xxl-column">
+                    <img src="" class="d-none align-self-center" alt="Pokemon" id="imgEvo5" width="150px">
+                    <input type="text" class="d-none align-self-center border-0 w-75 text-center fw-bold fs-3" placeholder="Quinta evolución" id="evo5"
+                        name="evo5"><br>
+                </div>
+                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-column flex-xlrow flex-xxl-column">
+                    <img src="" class="d-none align-self-center" alt="Pokemon" id="imgEvo6" width="150px">
+                    <input type="text" class="d-none align-self-center border-0 w-75 text-center fw-bold fs-3" placeholder="Sexta evolución" id="evo6"
+                        name="evo6"><br>
+                </div>
+                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-column flex-xlrow flex-xxl-column">
+                    <img src="" class="d-none align-self-center" alt="Pokemon" id="imgEvo7" width="150px">
+                    <input type="text" class="d-none align-self-center border-0 w-75 text-center fw-bold fs-3" placeholder="Septima evolución" id="evo7"
+                        name="evo7"><br>
+                </div>
+                <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-column flex-xlrow flex-xxl-column">
+                    <img src="" class="d-none align-self-center" alt="Pokemon" id="imgEvo8" width="150px">
+                    <input type="text" class="d-none align-self-center border-0 w-75 text-center fw-bold fs-3" placeholder="Octava evolución" id="evo8"
+                        name="evo8"><br>
+                </div>
+            </div>
+            <!-- ============================================= Column left =============================================-->
+            <!-- ============================================= Column center =============================================-->
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-5  d-flex flex-column justify-content-center align-items-center" 
+                id="secondColumn">
+                <h1 class="mt-5 fs-1 mb-5 text-white" id="titleMain">Pokedex Launch-X</h1>
+                <input type="text" placeholder="Nombre o número del pokemon" id="pokeName" name="pokeName" class="w-75 text-center fs-3 mb-3"><br>
+                <img src="/assets/other/poke.png" class="shadow card border border-5 rounded-3" alt="pokemon" width="300px" id="pokeImg"><br><br>
+                <input type="text" name="namePokemon" readonly id="namePokemon" placeholder="Nombre del pokemon" 
+                class=" border-0 fs-1 text-center fw-bold mb-3"><br>
+                <button onclick="fetchPokemon()" class="btn btn-secondary fs-3 mb-5" id="searchPoke" name="searchPoke">Buscar pokemon</button>
+            </div>
+            <!-- ============================================= Column center =============================================-->
+            <!-- ============================================= Column right =============================================-->
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-4 d-flex flex-column justify-content-center align-items-center " 
+                id="thirdColumn">
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <h3 id="titleTipo" name="titleTipo" class=" fs-2 text-white mt-2">Tipo</h3><br>
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex  flex-row justify-content-center mt-2">
+                            <img src="./assets/types/grass.svg" alt="" id="type1" name="type1" width="120px" class="d-none" >
+                            <img src="./assets/types/poison.svg" alt=""  id="type2" name="type2"  width="120px" class="d-none ms-3">
+                        </div>
+                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex text-center fw-bold flex-row justify-content-center">
+                            <label class="fs-2 text-white" id="lblType1" name="lblType1" width= "120px"></label>
+                            <label class="fs-2 ms-5 text-white" id="lblType2" name="lblType2" width= "120px"></label>
+                        </div>
+                        <div class="container-fluid d-flex  flex-column mt-3 justify-content-center text-center" >
+                            <h3 id="titleStadistics" name="titleStadistics" class=" fs-2 text-white">Estadísticas</h3><br>
+                            <div id="statsPoke" name="statsPoke" class="d-none">
+                                <div  class="row" id="estadisticsContainer">
+                                    <div class="col-6 justify-content-center text-center" >
+                                        <h1 class="fs-3 mt-2" id="hp" name="hp">HP:  </h1>
+                                        <h1 class="fs-3" id="attack" name="attack">Attack:  </h1>
+                                        <h1 class="fs-3 mb-2" id="defense" name="defense">Defense: </h1>
+                                    </div>
+                                    <div class="col-6 justify-content-center text-center">
+                                        <h1 class="fs-3 mt-2" id="special-attack" name="special-attack">Sp. Atk: </h1>
+                                        <h1 class="fs-3" id="special-defense" name="special-defense">Sp. Def:  </h1>
+                                        <h1 class="fs-3 mb-2" id="speed" name="speed">Speed: </h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h3 id="titleMoves" name="titleMoves" class=" fs-2 text-white">Movimientos</h3><br>
+                            <div id="movesPoke" name="movesPoke" class="mb-5 d-none">
+                                <div class="row ">
+                                    <div class="col-6 justify-content-center text-center">
+                                        <div class="list-group">
+                                            <li class="fs-3 fw-bold list-group-item" id="move1" name="move1"></li>
+                                            <li class="fs-3 fw-bold list-group-item" id="move2" name="move2"></li>
+                                            <li class="fs-3 fw-bold list-group-item" id="move3" name="move3"></li>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 justify-content-center text-center">
+                                        <div class="list-group">
+                                            <li class="fs-3 fw-bold list-group-item" id="move4" name="move4"></li>
+                                            <li class="fs-3 fw-bold list-group-item" id="move5" name="move5"></li>
+                                            <li class="fs-3 fw-bold list-group-item" id="move6" name="move6"></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================= Column right =============================================-->
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./js/app.js"></script>
+</footer>
+</html>

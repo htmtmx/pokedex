@@ -1,0 +1,13 @@
+#firstColumn, #thirdColumn{
+    /* background-color: #e40c2c; */
+    background-color: #1E3888;
+}
+#secondColumn{
+    background-color: #1E3888;
+}
+#estadisticsContainer{
+    background-color: #CCDAD1;
+}
+#titleMain, #titleEvo, #titleTipo{
+    font-family: 'Pokemon Solid', sans-serif;
+}
