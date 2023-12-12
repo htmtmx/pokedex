@@ -1,1 +1,1 @@
-# htmtmx.github.io.pokedex
+# pokedex
